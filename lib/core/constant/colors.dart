@@ -9,4 +9,5 @@ const Color mainorangeColor = Color(0xFFFF6601);
 const Color whiteColor = Color(0xFFFFFFFF);
 const Color borderColor = Color(0xFF6A6A6A);
 const Color orangeborderColor = Color(0xFF8F4C12);
-const Color grayColor = Color(0xFFA8A8A8);
+const Color lightgrayColor = Color(0xFFA8A8A8);
+const Color darkgrayColor = Color(0xFF8391A1);
