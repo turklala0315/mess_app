@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:mess_app/core/constant/auth/login/login_screen.dart';
+import 'package:mess_app/core/constant/auth/register/register_screen.dart';
 import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
@@ -68,7 +70,14 @@ class WelcomeScreen extends StatelessWidget {
                     SizedBox(height: 16.h),
                     //
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => LoginScreen(),
+                          ),
+                        );
+                      },
                       child: Container(
                         width: 335.w,
                         height: 58.h,
@@ -93,7 +102,14 @@ class WelcomeScreen extends StatelessWidget {
                     SizedBox(height: 19.h),
                     //
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => RegisterScreen(),
+                          ),
+                        );
+                      },
                       child: Container(
                         width: 338.w,
                         height: 58.h,

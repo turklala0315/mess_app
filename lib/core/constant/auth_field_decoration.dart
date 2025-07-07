@@ -7,7 +7,7 @@ final authFieldDecoration = InputDecoration(
   filled: true,
   fillColor: Colors.white,
   hintText: 'Enter your email',
-  hintStyle: style14sourceblack.copyWith(color: lastcartColor),
+  hintStyle: style14.copyWith(color: lastcartColor),
   enabledBorder: OutlineInputBorder(
     borderRadius: BorderRadius.circular(10.r), // Rounded corners
     borderSide: BorderSide(color: lastcartColor),
