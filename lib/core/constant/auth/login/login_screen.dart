@@ -114,9 +114,8 @@ class _LoginScreenState extends State<LoginScreen> {
                           ],
                         ),
                       ),
-                      //
+
                       // phone number conatiner end
-                      //
                       SizedBox(height: 18.h),
                       //
                       // Login Button

@@ -20,10 +20,22 @@ final style14main = TextStyle(
   color: mainblackColor,
   fontWeight: FontWeight.w500,
 );
+final style14mainblack = TextStyle(
+  fontSize: 14,
+  fontFamily: "urbanrsemibold",
+  color: mainblackColor,
+  fontWeight: FontWeight.w600,
+);
 final style14white = TextStyle(
   fontSize: 14,
   fontFamily: "urbanregular",
   color: whiteColor,
+  fontWeight: FontWeight.w500,
+);
+final style14gray = TextStyle(
+  fontSize: 14,
+  fontFamily: "urbanregular",
+  color: darkgrayColor,
   fontWeight: FontWeight.w500,
 );
 final style14whitesemibold = TextStyle(
@@ -42,6 +54,12 @@ final style18 = TextStyle(
   fontFamily: "urabansemibold",
   fontSize: 18,
   color: whiteColor,
+  fontWeight: FontWeight.w600,
+);
+final style18mainblack = TextStyle(
+  fontFamily: "urabansemibold",
+  fontSize: 18,
+  color: mainblackColor,
   fontWeight: FontWeight.w600,
 );
 final style18pureblack = TextStyle(

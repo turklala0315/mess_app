@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mess_app/core/constant/auth/register/register_screen.dart';
+import 'package:mess_app/core/constant/auth/register/registeration_screen.dart';
 import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
@@ -122,7 +122,7 @@ class MenuScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => RegisterScreen()),
+                  MaterialPageRoute(builder: (context) => RegistrationScreen()),
                 );
               },
               child: Container(
