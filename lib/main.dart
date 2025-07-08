@@ -6,7 +6,7 @@ import 'package:mess_app/core/constant/auth/opt_fatch/opt_fatch_screen.dart';
 import 'package:mess_app/core/constant/auth/otp/otp_screen.dart';
 import 'package:mess_app/core/constant/auth/register/registeration_screen.dart';
 import 'package:mess_app/ui/menu/menu_screen.dart';
-import 'package:mess_app/ui/wellcome_screen.dart';
+import 'package:mess_app/ui/wellcome/wellcome_screen.dart';
 import 'package:device_preview/device_preview.dart';
 
 void main() {
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           builder: DevicePreview.appBuilder,
           theme: ThemeData.light(),
           darkTheme: ThemeData.dark(),
-          home: RegistrationScreen(),
+          home: WelcomeScreen(),
         );
       },
     );

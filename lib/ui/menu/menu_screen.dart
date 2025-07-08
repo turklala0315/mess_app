@@ -125,23 +125,25 @@ class MenuScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => RegistrationScreen()),
                 );
               },
-              child: Container(
-                width: 330.w,
-                height: 58.h,
-                decoration: BoxDecoration(
-                  color: mainblackColor,
-                  borderRadius: BorderRadius.circular(8.r),
-                  border: Border.all(color: borderColor),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('Register Screen', style: style18),
-                    //
-                    SizedBox(width: 3.w),
-                    //
-                    Image.asset('$iconsAssets/login.png', scale: 4.5),
-                  ],
+              child: Center(
+                child: Container(
+                  width: 330.w,
+                  height: 58.h,
+                  decoration: BoxDecoration(
+                    color: mainblackColor,
+                    borderRadius: BorderRadius.circular(8.r),
+                    border: Border.all(color: borderColor),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Register Screen', style: style18),
+                      //
+                      SizedBox(width: 3.w),
+                      //
+                      Image.asset('$iconsAssets/login.png', scale: 4.5),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -180,27 +182,32 @@ class MenuScreen extends StatelessWidget {
             SizedBox(height: 22.h),
             GestureDetector(
               onTap: () {},
-              child: Container(
-                width: 330.w,
-                height: 58.h,
-                decoration: BoxDecoration(
-                  color: mainblackColor,
-                  borderRadius: BorderRadius.circular(8.r),
-                  border: Border.all(color: borderColor),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('Order food', style: style14whitesemibold),
-                    Text('(coming soon..)', style: style14white),
-                    //
-                    SizedBox(width: 3.w),
-                    //
-                    Image.asset('$staticAssets/box.png', scale: 4.5),
-                  ],
+              child: Center(
+                child: Container(
+                  width: 330.w,
+                  height: 58.h,
+                  decoration: BoxDecoration(
+                    color: mainblackColor,
+                    borderRadius: BorderRadius.circular(8.r),
+                    border: Border.all(color: borderColor),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Order food', style: style14whitesemibold),
+                      Text('(coming soon..)', style: style14white),
+                      //
+                      SizedBox(width: 3.w),
+                      //
+                      Image.asset('$staticAssets/box.png', scale: 4.5),
+                    ],
+                  ),
                 ),
               ),
             ),
+            //
+            SizedBox(height: 20.h),
+            //
           ],
         ),
       ),
