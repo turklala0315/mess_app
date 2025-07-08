@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
+import 'package:mess_app/core/constant/auth/register/register_screen.dart';
 import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
 
-class RegistrationScreen extends StatefulWidget {
+class DetailsScreen extends StatefulWidget {
   @override
-  State<RegistrationScreen> createState() => _RegistrationScreenState();
+  State<DetailsScreen> createState() => _RegistrationScreenState();
 }
 
-class _RegistrationScreenState extends State<RegistrationScreen> {
+class _RegistrationScreenState extends State<DetailsScreen> {
   String? _selectedGender;
   DateTime? _selectedDate;
   bool _agreedToDetails = false;
@@ -245,7 +246,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       width: 161.5.w,
                       decoration: BoxDecoration(
                         color: mainorangeColor,
-                        border: Border.all(color: pureblackColor),
+
                         borderRadius: BorderRadius.circular(8.r),
                       ),
                       child: Row(
@@ -268,7 +269,12 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
             // Register Button
             GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => RegisterScreen()),
+                );
+              },
               child: Center(
                 child: Container(
                   width: 330.w,
@@ -280,7 +286,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Register Screen', style: style18),
+                      Text('Register', style: style18),
                       //
                       SizedBox(width: 3.w),
                       //
@@ -331,50 +337,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               borderSide: BorderSide(color: mainorangeColor, width: 2),
             ),
             contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildPhoneTextFieldWithLabel(
-    String label,
-    String prefix,
-    String hintText,
-  ) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        _buildLabel(label),
-        Container(
-          decoration: BoxDecoration(
-            border: Border.all(color: Colors.grey.shade400),
-            borderRadius: BorderRadius.circular(8),
-          ),
-          padding: const EdgeInsets.symmetric(horizontal: 12),
-          child: Row(
-            children: [
-              Text(
-                prefix,
-                style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black87,
-                ),
-              ),
-              const SizedBox(width: 10),
-              Expanded(
-                child: TextField(
-                  decoration: InputDecoration(
-                    hintText: hintText,
-                    hintStyle: TextStyle(color: Colors.grey[400]),
-                    border: InputBorder.none,
-                    contentPadding: EdgeInsets.zero,
-                  ),
-                  keyboardType: TextInputType.phone,
-                ),
-              ),
-            ],
           ),
         ),
       ],

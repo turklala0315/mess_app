@@ -14,3 +14,7 @@ const Color darkgrayColor = Color(0xFF8391A1);
 const Color pureblackColor = Color(0xFF000000);
 const Color optboxColor = Color(0xFFF7F8F9);
 const Color fulnametextformColor = Color(0xFF6A707C);
+const Color addtiffinsColor = Color(0xFFB9B9B9);
+const Color addandminusColor = Color(0xFFDFDFDF);
+const Color minusColor = Color(0xFF3D4754);
+const Color greenColor = Color(0xFF006D16);

@@ -128,3 +128,9 @@ final style32 = TextStyle(
   color: mainorangeColor,
   fontWeight: FontWeight.w600,
 );
+final style32green = TextStyle(
+  fontFamily: "urabanbold",
+  fontSize: 32,
+  color: greenColor,
+  fontWeight: FontWeight.w700,
+);
