@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
-import 'package:mess_app/ui/menu/menu_screen.dart';
+import 'package:mess_app/ui/screens/menu/menu_screen.dart';
 
 class OptFatchScreen extends StatefulWidget {
   const OptFatchScreen({super.key});

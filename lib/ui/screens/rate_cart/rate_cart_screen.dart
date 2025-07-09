@@ -3,8 +3,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
-import 'package:mess_app/ui/details/details_screen.dart';
-import 'package:mess_app/ui/order/order_screen.dart';
+import 'package:mess_app/ui/custom_widgets/banner/reuse_banner.dart';
+import 'package:mess_app/ui/screens/details/details_screen.dart';
+import 'package:mess_app/ui/screens/order/order_screen.dart';
 
 class RateCartScreen extends StatelessWidget {
   const RateCartScreen({super.key});
@@ -91,28 +92,11 @@ class RateCartScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
-              padding: EdgeInsets.only(left: 15, top: 15),
-              height: 256.h,
-              width: double.infinity,
-              color: mainorangeColor,
-              child: Column(
-                // mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text('Pay today and save\n200 RS', style: style22white),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        'Offer description goes here, Offer\n description goes here, Offer description\n goes here Offer description goes here, Offer\n description goes here, Offer description\n goes here',
-                        style: style14white,
-                      ),
-                      Image.asset('$staticAssets/tefen.png', scale: 4.5),
-                    ],
-                  ),
-                ],
-              ),
+            ReuseBanner(
+              Color: mainorangeColor,
+              title: 'Pay today and save\n200 RS',
+              subtitle:
+                  'Offer description goes here, Offer\ndescription goes here, Offer description\ngoes here Offer description goes here, Offer\ndescription goes here, Offer description\ngoes here',
             ),
             //
             SizedBox(height: 56.h),

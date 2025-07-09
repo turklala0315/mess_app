@@ -20,3 +20,5 @@ const Color minusColor = Color(0xFF3D4754);
 const Color greenColor = Color(0xFF006D16);
 const Color circularColor = Color(0xFFD9D9D9);
 const Color circulrnoColor = Color(0xFFD7D7D7);
+const Color purpleColor = Color(0xFF8001FF);
+const Color pureColor = Color(0xFFFFFFFF);

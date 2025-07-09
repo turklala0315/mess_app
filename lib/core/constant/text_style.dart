@@ -26,6 +26,12 @@ final style14main = TextStyle(
   color: mainblackColor,
   fontWeight: FontWeight.w500,
 );
+final style14black = TextStyle(
+  fontSize: 14,
+  fontFamily: "urbanregular",
+  color: pureblackColor,
+  fontWeight: FontWeight.w500,
+);
 final style14mainblack = TextStyle(
   fontSize: 14,
   fontFamily: "urbanrsemibold",
@@ -55,6 +61,12 @@ final style16 = TextStyle(
   fontSize: 16,
   color: darkgrayColor,
   fontWeight: FontWeight.w500,
+);
+final style16mainorange = TextStyle(
+  fontFamily: "urbansemibold",
+  fontSize: 16,
+  color: mainorangeColor,
+  fontWeight: FontWeight.w600,
 );
 final style18 = TextStyle(
   fontFamily: "urabansemibold",
@@ -86,11 +98,23 @@ final style10 = TextStyle(
   color: lightgrayColor,
   fontWeight: FontWeight.w400,
 );
+final style10mainorange = TextStyle(
+  fontFamily: "urabanregular",
+  fontSize: 10,
+  color: mainorangeColor,
+  fontWeight: FontWeight.w500,
+);
 final style12 = TextStyle(
   fontFamily: "urbansemibold",
   fontSize: 12,
   color: mainblackColor,
   fontWeight: FontWeight.w400,
+);
+final style12green = TextStyle(
+  fontFamily: "urbanbold",
+  fontSize: 12,
+  color: greenColor,
+  fontWeight: FontWeight.w700,
 );
 final style12darkgray = TextStyle(
   fontFamily: "urbansemibold",
@@ -134,6 +158,12 @@ final style22simple = TextStyle(
   color: mainblackColor,
   fontWeight: FontWeight.w600,
 );
+final style22green = TextStyle(
+  fontFamily: "urabanbold",
+  fontSize: 22,
+  color: greenColor,
+  fontWeight: FontWeight.w700,
+);
 final style23 = TextStyle(
   fontFamily: "urabanbold",
   fontSize: 23,
@@ -156,5 +186,11 @@ final style32green = TextStyle(
   fontFamily: "urabanbold",
   fontSize: 32,
   color: greenColor,
+  fontWeight: FontWeight.w700,
+);
+final style32mainblack = TextStyle(
+  fontFamily: "urabanbold",
+  fontSize: 32,
+  color: mainblackColor,
   fontWeight: FontWeight.w700,
 );

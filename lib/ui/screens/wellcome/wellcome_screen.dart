@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mess_app/core/constant/auth/login/login_screen.dart';
 import 'package:mess_app/core/constant/auth/register/register_screen.dart';
-import 'package:mess_app/ui/details/details_screen.dart';
+import 'package:mess_app/ui/screens/details/details_screen.dart';
 import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
