@@ -14,6 +14,12 @@ final style14 = TextStyle(
   color: mainorangeColor,
   fontWeight: FontWeight.w700,
 );
+final style14orangecolr = TextStyle(
+  fontSize: 14,
+  fontFamily: "urbanregular",
+  color: mainorangeColor,
+  fontWeight: FontWeight.w500,
+);
 final style14main = TextStyle(
   fontSize: 14,
   fontFamily: "urbanregular",
@@ -121,6 +127,24 @@ final style22main = TextStyle(
   fontSize: 22,
   color: mainblackColor,
   fontWeight: FontWeight.w600,
+);
+final style22simple = TextStyle(
+  fontFamily: "uraban",
+  fontSize: 22,
+  color: mainblackColor,
+  fontWeight: FontWeight.w600,
+);
+final style23 = TextStyle(
+  fontFamily: "urabanbold",
+  fontSize: 23,
+  color: whiteColor,
+  fontWeight: FontWeight.w700,
+);
+final style23mainblack = TextStyle(
+  fontFamily: "urabanbold",
+  fontSize: 23,
+  color: mainblackColor,
+  fontWeight: FontWeight.w700,
 );
 final style32 = TextStyle(
   fontFamily: "urabansemibold",

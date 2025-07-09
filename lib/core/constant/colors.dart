@@ -18,3 +18,5 @@ const Color addtiffinsColor = Color(0xFFB9B9B9);
 const Color addandminusColor = Color(0xFFDFDFDF);
 const Color minusColor = Color(0xFF3D4754);
 const Color greenColor = Color(0xFF006D16);
+const Color circularColor = Color(0xFFD9D9D9);
+const Color circulrnoColor = Color(0xFFD7D7D7);
