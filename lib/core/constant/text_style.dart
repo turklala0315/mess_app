@@ -62,6 +62,12 @@ final style16 = TextStyle(
   color: darkgrayColor,
   fontWeight: FontWeight.w500,
 );
+final style16mainblack = TextStyle(
+  fontFamily: "urbanregular",
+  fontSize: 16,
+  color: mainblackColor,
+  fontWeight: FontWeight.w500,
+);
 final style16mainorange = TextStyle(
   fontFamily: "urbansemibold",
   fontSize: 16,
@@ -110,6 +116,12 @@ final style12 = TextStyle(
   color: mainblackColor,
   fontWeight: FontWeight.w400,
 );
+final style12orange = TextStyle(
+  fontFamily: "urbansemibold",
+  fontSize: 12,
+  color: mainorangeColor,
+  fontWeight: FontWeight.w600,
+);
 final style12green = TextStyle(
   fontFamily: "urbanbold",
   fontSize: 12,
@@ -139,6 +151,12 @@ final style22 = TextStyle(
   fontSize: 22,
   color: pureblackColor,
   fontWeight: FontWeight.w600,
+);
+final style22bold = TextStyle(
+  fontFamily: "urabanbold",
+  fontSize: 22,
+  color: mainblackColor,
+  fontWeight: FontWeight.w700,
 );
 final style22white = TextStyle(
   fontFamily: "urabansemibold",

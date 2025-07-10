@@ -21,4 +21,6 @@ const Color greenColor = Color(0xFF006D16);
 const Color circularColor = Color(0xFFD9D9D9);
 const Color circulrnoColor = Color(0xFFD7D7D7);
 const Color purpleColor = Color(0xFF8001FF);
-const Color pureColor = Color(0xFFFFFFFF);
+const Color purewhiteColor = Color(0xFFFFFFFF);
+const Color halfwhiteColor = Color(0xFFF5F5F5);
+const Color searchcontainerColor = Color(0xFFE9E9E9);
