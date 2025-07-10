@@ -24,3 +24,4 @@ const Color purpleColor = Color(0xFF8001FF);
 const Color purewhiteColor = Color(0xFFFFFFFF);
 const Color halfwhiteColor = Color(0xFFF5F5F5);
 const Color searchcontainerColor = Color(0xFFE9E9E9);
+const Color brownColor = Color(0xFFB96000);

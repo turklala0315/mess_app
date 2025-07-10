@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/text_style.dart';
+import 'package:mess_app/ui/screens/admin_profile/admin_profile_screen.dart';
 
 class TotalMembersScreen extends StatefulWidget {
   const TotalMembersScreen({super.key});
@@ -38,25 +39,23 @@ class _TotalMembersScreenState extends State<TotalMembersScreen> {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 30),
-            child: Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  //
-                  SizedBox(height: 42.h),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text('Total Members', style: style22bold),
-                      Text('209', style: style32green),
-                    ],
-                  ),
-                  //
-                  SizedBox(height: 35.h),
-                  //
-                  searchtextfield(),
-                ],
-              ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                //
+                SizedBox(height: 42.h),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text('Total Members', style: style22bold),
+                    Text('209', style: style32green),
+                  ],
+                ),
+                //
+                SizedBox(height: 35.h),
+                //
+                searchtextfield(),
+              ],
             ),
           ),
           Expanded(
@@ -120,7 +119,12 @@ class _TotalMembersScreenState extends State<TotalMembersScreen> {
               Text(name, style: style16mainblack),
               GestureDetector(
                 onTap: () {
-                  ;
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => AdminProfileScreen(),
+                    ),
+                  );
                 },
                 child: Text('see details', style: style12orange),
               ),

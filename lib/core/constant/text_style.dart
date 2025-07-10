@@ -56,6 +56,12 @@ final style14whitesemibold = TextStyle(
   color: whiteColor,
   fontWeight: FontWeight.w500,
 );
+final style14bold = TextStyle(
+  fontSize: 14,
+  fontFamily: "urbanbold",
+  color: pureblackColor,
+  fontWeight: FontWeight.w700,
+);
 final style16 = TextStyle(
   fontFamily: "urbanregular",
   fontSize: 16,

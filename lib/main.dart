@@ -1,6 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:mess_app/ui/screens/admin_profile/admin_profile_screen.dart';
+import 'package:mess_app/ui/screens/offers/offers_screen.dart';
 import 'package:mess_app/ui/screens/order/order_screen.dart';
 import 'package:mess_app/ui/screens/total_members/total_members_screen.dart';
 
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget {
           builder: DevicePreview.appBuilder,
           theme: ThemeData.light(),
           darkTheme: ThemeData.dark(),
-          home: TotalMembersScreen(),
+          home: OffersScreen(),
         );
       },
     );
