@@ -5,7 +5,7 @@ import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
 import 'package:mess_app/ui/custom_widgets/banner/reuse_banner.dart';
 import 'package:mess_app/ui/screens/details/details_screen.dart';
-import 'package:mess_app/ui/screens/order/order_screen.dart';
+import 'package:mess_app/ui/screens/guest_order/guest_order_screen.dart';
 
 class RateCartScreen extends StatelessWidget {
   const RateCartScreen({super.key});
@@ -138,7 +138,7 @@ class RateCartScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => OrderScreen()),
+                  MaterialPageRoute(builder: (context) => GuestOrderScreen()),
                 );
               },
               child: Center(

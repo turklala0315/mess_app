@@ -6,7 +6,7 @@ import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
 import 'package:mess_app/ui/screens/details_for_registeration/details_for_reggisteration.dart';
-import 'package:mess_app/ui/screens/order/order_screen.dart';
+import 'package:mess_app/ui/screens/guest_order/guest_order_screen.dart';
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
@@ -141,7 +141,7 @@ class MenuScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => OrderScreen()),
+                  MaterialPageRoute(builder: (context) => GuestOrderScreen()),
                 );
               },
               child: Center(

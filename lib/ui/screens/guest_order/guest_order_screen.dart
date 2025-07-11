@@ -6,14 +6,14 @@ import 'package:mess_app/core/constant/colors.dart';
 import 'package:mess_app/core/constant/string.dart';
 import 'package:mess_app/core/constant/text_style.dart';
 
-class OrderScreen extends StatefulWidget {
-  const OrderScreen({super.key});
+class GuestOrderScreen extends StatefulWidget {
+  const GuestOrderScreen({super.key});
 
   @override
-  State<OrderScreen> createState() => _OrderScreenState();
+  State<GuestOrderScreen> createState() => _GuestOrderScreenState();
 }
 
-class _OrderScreenState extends State<OrderScreen> {
+class _GuestOrderScreenState extends State<GuestOrderScreen> {
   final formkey = GlobalKey<FormState>();
 
   TextEditingController number = TextEditingController();

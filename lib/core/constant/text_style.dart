@@ -110,11 +110,23 @@ final style10 = TextStyle(
   color: lightgrayColor,
   fontWeight: FontWeight.w400,
 );
+final style10mainblack = TextStyle(
+  fontFamily: "urabanregular",
+  fontSize: 10,
+  color: mainblackColor,
+  fontWeight: FontWeight.w600,
+);
 final style10mainorange = TextStyle(
   fontFamily: "urabanregular",
   fontSize: 10,
   color: mainorangeColor,
   fontWeight: FontWeight.w500,
+);
+final style12red = TextStyle(
+  fontFamily: "urbansemibold",
+  fontSize: 12,
+  color: redColor,
+  fontWeight: FontWeight.w600,
 );
 final style12 = TextStyle(
   fontFamily: "urbansemibold",
